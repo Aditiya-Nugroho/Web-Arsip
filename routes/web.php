@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('templates.main');
+    return view('home');
+});
+Route::get('/tambahArsip', function () {
+    return view('tambahArsip');
 });
