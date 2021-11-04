@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/tambahArsip', function () {
     return view('tambahArsip');
 });
+Route::get('/pegawai', function () {
+    return view('dataPegawai');
+});
+Route::get('/tambahPegawai', function () {
+    return view('tambahPegawai');
+});

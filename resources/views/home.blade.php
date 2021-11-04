@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="text-static ">
                                     <p>
-                                        Jumlah Surat Masuk
+                                        Jumlah Pegawai
                                     </p>
                                 </div>
                                 <div class="number-static">
@@ -39,28 +39,16 @@
                                 </div>                            
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card-static">                            
-                                <div class="icon-static makeCenter">
-                                    <i class='bx bx-menu' id="header-toggle"></i>
-                                </div>
-                                <div class="text-static">
-                                    <p>
-                                        Jumlah Surat Masuk
-                                    </p>
-                                </div>
-                                <div class="number-static">
-                                    <h1>
-                                        10
-                                    </h1>
-                                </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="title-table">
-            <h2>Responsive Table</h2>
+        <div class="title-table d-flex w-100">
+            <div class="title">
+                <h2>Data Arsip</h2>
+            </div>
+            <div class="cta">
+                <h1>sd</h1>
+            </div>
         </div>
         <div class="table-wrapper">
             <table class="fl-table">

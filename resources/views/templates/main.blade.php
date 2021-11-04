@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/home.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/tambahArsip.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <title>@yield('title')</title>
 </head>
@@ -17,7 +17,6 @@
         <header class="header" id="header">
             <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i>
             </div>
-            <div class="header_img"> <img src="https://i.imgur.com/hczKIze.jpg" alt=""> </div>
         </header>
         <div class="l-navbar" id="nav-bar">
             <nav class="nav">
@@ -31,13 +30,13 @@
                             <i class='bx bx-message-square-detail nav_icon'></i> 
                             <span class="nav_name">Tambah Arsip</span> 
                         </a> 
-                        <a href="#" class="nav_link"> 
+                        <a href="{{url('/pegawai')}}" class="nav_link"> 
                             <i class='bx bx-folder nav_icon'></i> 
-                            <span class="nav_name">Surat Masuk</span> 
+                            <span class="nav_name">Data Pegawai</span> 
                         </a> 
                         <a href="#" class="nav_link"> 
                             <i class='bx bx-bar-chart-alt-2 nav_icon'></i> 
-                            <span class="nav_name">Surat Keluar</span> 
+                            <span class="nav_name">Tambah Pegawai</span> 
                         </a> 
                     </div>
                 </div> 
@@ -54,5 +53,6 @@
 
     <script src="{{asset('assets/bootstrap/js/bootstrap.bundle.js')}}"></script>
     <script src="{{asset('assets/js/script.js')}}"></script>
+    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
 </body>
 </html>
