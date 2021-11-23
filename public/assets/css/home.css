@@ -33,6 +33,11 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+.title-table{
+    justify-content: space-between;
+    width:60%;
+    align-items: baseline;
+}
 .title-table h2{
     text-align: left;
     font-size: 35px;

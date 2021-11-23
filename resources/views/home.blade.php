@@ -42,13 +42,15 @@
                 </div>
             </div>
         </div>
-        <div class="title-table d-flex w-100">
-            <div class="title">
+        <div class="title-table">
+            <div class="title-form">
+
                 <h2>Data Arsip</h2>
-            </div>
+
             <div class="cta">
-                <h1>sd</h1>
+                <a href="{{url('/tambahArsip')}}" type="button" class="btn btn-cta">Tambah Arsip</a>
             </div>
+        </div>
         </div>
         <div class="table-wrapper">
             <table class="fl-table">

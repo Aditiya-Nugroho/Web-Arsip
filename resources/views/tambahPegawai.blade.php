@@ -44,9 +44,7 @@
     </div>
     <section class="get-in-touch">
         <div class="title-form">
-
-                <h2>Data Arsip</h2>
-
+                <h2>Tambah Pegawai</h2>
         </div>
         <form class="contact-form row">
            <div class="form-field col-lg-6">

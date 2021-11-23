@@ -24,20 +24,20 @@
                     <div class="nav_list"> 
                         <a href="{{url('/')}}" class="nav_link {{ Request::is('/') ? 'active' : '' }}"> 
                             <i class='bx bx-grid-alt nav_icon'></i> 
-                            <span class="nav_name">Tabel Arsip</span> 
+                            <span class="nav_name">Daftar Arsip</span> 
                         </a> 
-                        <a href="{{url('/tambahArsip')}}" class="nav_link {{ Request::is('tambahArsip') ? 'active' : '' }}"> 
+                        <a href="{{url('/pegawai')}}" class="nav_link {{ Request::is('pegawai') ? 'active' : '' }}"> 
                             <i class='bx bx-message-square-detail nav_icon'></i> 
-                            <span class="nav_name">Tambah Arsip</span> 
+                            <span class="nav_name">asd</span> 
                         </a> 
-                        <a href="{{url('/pegawai')}}" class="nav_link"> 
+                        {{-- <a href="{{url('/pegawai')}}" class="nav_link"> 
                             <i class='bx bx-folder nav_icon'></i> 
                             <span class="nav_name">Data Pegawai</span> 
                         </a> 
                         <a href="#" class="nav_link"> 
                             <i class='bx bx-bar-chart-alt-2 nav_icon'></i> 
                             <span class="nav_name">Tambah Pegawai</span> 
-                        </a> 
+                        </a>  --}}
                     </div>
                 </div> 
                 <a href="#" class="nav_link"> 
